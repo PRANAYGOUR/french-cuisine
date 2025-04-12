@@ -523,6 +523,11 @@
 .u-section-3 .u-text-2 {
   font-size: 1.875rem;
   font-weight: 700;
+  --animation-custom_in-translate_x: -200px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
   margin: 11px auto 0 19px;
 }
 
@@ -536,6 +541,11 @@
   font-weight: 700;
   font-style: italic;
   font-size: 1.875rem;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 0.3;
   margin: 30px auto 0 19px;
 }
 
@@ -550,6 +560,12 @@
 .u-section-3 .u-text-4 {
   font-size: 1.875rem;
   font-weight: 700;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  animation-timing-function: linear;
   margin: 11px auto 0;
 }
 
@@ -563,6 +579,11 @@
   font-size: 1.875rem;
   font-style: italic;
   font-weight: 700;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 0.3;
   margin: 30px auto 0;
 }
 
@@ -577,6 +598,11 @@
 .u-section-3 .u-text-6 {
   font-size: 1.875rem;
   font-weight: 700;
+  --animation-custom_in-translate_x: -200px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
   margin: 0 auto 0 170px;
 }
 
@@ -590,6 +616,11 @@
   font-size: 1.875rem;
   font-weight: 700;
   font-style: italic;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 0.3;
   margin: 29px auto 0 26px;
 }
 
@@ -604,6 +635,11 @@
 .u-section-3 .u-text-8 {
   font-size: 1.875rem;
   font-weight: 700;
+  --animation-custom_in-translate_x: -200px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
   margin: 0 auto;
 }
 
@@ -617,6 +653,11 @@
   font-size: 1.875rem;
   font-weight: 700;
   font-style: italic;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 0.3;
   margin: 44px 31px 0 auto;
 }
 
@@ -875,7 +916,7 @@
   }
 
   .u-section-3 .u-layout-wrap-1 {
-    margin-bottom: 55px;
+    margin-bottom: 60px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
@@ -906,6 +947,10 @@
     margin-top: 22px;
   }
 
+  .u-section-3 .u-layout-cell-3 {
+    min-height: 530px;
+  }
+
   .u-section-3 .u-text-6 {
     margin-top: 0;
     margin-left: 113px;
@@ -918,7 +963,9 @@
   }
 
   .u-section-3 .u-text-7 {
-    margin-top: 20px;
+    font-size: 1.5rem;
+    margin-top: 19px;
+    margin-right: -19px;
   }
 
   .u-section-3 .u-layout-cell-4 {
@@ -1013,7 +1060,7 @@
 
 @media (max-width: 575px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 405px;
+    min-height: 1088px;
   }
 
   .u-section-4 .u-text-1 {
@@ -1027,9 +1074,17 @@
 
   .u-section-4 .u-text-2 {
     width: 340px;
+    font-size: 1.5rem;
   }
 
   .u-section-4 .u-text-3 {
-    width: 340px;
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 1.5rem;
+  }
+
+  .u-section-4 .u-text-4 {
+    font-size: 1.5rem;
   }
 }

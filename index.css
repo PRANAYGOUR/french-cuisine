@@ -282,7 +282,6 @@
 }
 
 .u-section-2 .u-btn-1 {
-  background-image: none;
   border-style: solid;
   margin: 38px auto 0;
   padding: 0;
@@ -331,7 +330,6 @@
 }
 
 .u-section-2 .u-btn-2 {
-  background-image: none;
   border-style: solid;
   margin: 38px auto 0;
   padding: 0;
@@ -380,7 +378,6 @@
 }
 
 .u-section-2 .u-btn-3 {
-  background-image: none;
   border-style: solid;
   margin: 38px auto 0;
   padding: 0;
@@ -429,7 +426,6 @@
 }
 
 .u-section-2 .u-btn-4 {
-  background-image: none;
   border-style: solid;
   margin: 38px auto 0;
   padding: 0;
@@ -659,16 +655,6 @@
   background-color: #332e29 !important;
 }
 
-.u-section-2 .u-btn-1:not([data-block-selected]):not([data-cell-selected]),
-.u-section-2 .u-btn-1:not([data-block-selected]):not([data-cell-selected]):before,
-.u-section-2 .u-btn-1:not([data-block-selected]):not([data-cell-selected]) > .u-container-layout:before {
-  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position;
-}
-
-.u-section-2 .u-btn-1:not([data-block-selected]):not([data-cell-selected]).u-section-2 .u-btn-1:not([data-block-selected]):not([data-cell-selected]).u-section-2 .u-btn-1:not([data-block-selected]):not([data-cell-selected]):hover:before {
-  background-color: #332e29 !important;
-}
-
 .u-block-ad14-68:not([data-block-selected]):not([data-cell-selected]),
 .u-block-ad14-68:not([data-block-selected]):not([data-cell-selected]):before,
 .u-block-ad14-68:not([data-block-selected]):not([data-cell-selected]) > .u-container-layout:before {
@@ -687,20 +673,6 @@
 
 .u-block-ad14-74:not([data-block-selected]):not([data-cell-selected]).u-block-ad14-74:not([data-block-selected]):not([data-cell-selected]).u-block-ad14-74:not([data-block-selected]):not([data-cell-selected]):hover:before {
   background-color: #332e29 !important;
-}
-
-.u-section-2 .u-btn-4:not([data-block-selected]):not([data-cell-selected]),
-.u-section-2 .u-btn-4:not([data-block-selected]):not([data-cell-selected]):before,
-.u-section-2 .u-btn-4:not([data-block-selected]):not([data-cell-selected]) > .u-container-layout:before {
-  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position;
-}
-
-.u-container-layout:hover .u-section-2 .u-btn-4:not([data-block-selected]):not([data-cell-selected]) {
-  color: #ffffff !important;
-}
-
-.u-container-layout.hover .u-section-2 .u-btn-4:not([data-block-selected]):not([data-cell-selected]) {
-  color: #ffffff !important;
 }
 
 .u-block-ad14-71:not([data-block-selected]):not([data-cell-selected]),
